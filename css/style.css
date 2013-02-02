@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-size:11px;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;margin:0;background:white;color:black;}
+#container{width:800px;margin:20px auto;}
+#level{padding:0;margin:0;list-style-type:none;width:190px;border:1px solid gray;}
+#level li{background:#039;color:white;padding:8px 10px;margin:1px;text-align:right;font-weight:bold;font-size:28px;font-family:Tahoma,Arial,Verdana,'Lucida Grande';}
+#choices{padding:0;margin:0;list-style-type:none;border:1px solid gray;}
+#choices li{display:inline-block;margin:1px 1px;}
+#choices li a{display:block;background:#039;color:white;width:255px;padding:10px 20px;font-size:18px;text-decoration:none;border:1px solid black;}
+#choices li a:hover{background:#FF9;color:black;}
+#main{height:408px;margin:0 0 10px 0;border:1px solid gray;}
+#lBox{width:604px;}
+#rBox{width:190px;}
+#header{padding:10px;background:#039;border-bottom:2px solid #777;color:white;font-size:24px;}
+#q{width:500px;margin:20px auto 10px auto;padding:10px;background:#039;color:white;font-size:18px;border:4px solid #777;display:none;}
+#qno{display:block;border-bottom:1px solid #06C;margin:0 0 10px 0;}
+#ans{width:400px;padding:10px;background:#0C6;color:#222;font-size:24px;margin:auto;border:4px solid #777;text-align:center;font-weight:bold;display:none;}
+#getready{color:#333;font-size:14px;font-weight:normal;}
+#lifeline{width:525px;margin:10px auto 0 auto;background:red;padding:0;height:20px;border:1px solid #555;}
+#lifelabel{background:gray;color:white;font-size:12px;padding:0 0 0 10px;width:122px;margin:0;line-height:20px;float:left;font-weight:bold;}
+#lifegauge{width:393px;background:#0C6;height:20px;display:inline-block;margin:0;float:left;}
+#complete{background:#039;border:1px solid gray;width:602px;height:92px;position:absolute;z-index:3;display:none;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
